@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+	background-color: #F5F5F5;
+}
+
+.body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #383377;
+	padding: 25px 0px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 22px;
+	font-family: 'Courier Prime', monospace;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img {
+	display: block;
+	width: 50%;
+	margin: 0px auto;
+}
+
+ul, ol {
+	margin-left: 50px;
+}
+
+.license {
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0px;
+	margin-top: 50px;
+}
+.copyright {
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0px;
+}
+.copyright a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.social{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 40px;
+    background-color: #383377;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.social li:last-child{
+    margin-right: 0;
+}
+.social li:hover{
+    cursor: pointer;
+}
+hr {
+	margin-left: -12%; 
+	margin-right: -12%; 
+}
